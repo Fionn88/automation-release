@@ -1,7 +1,7 @@
 {
   "name": "automation-release",
   "version": "1.0.0",
-  "description": "demo",
+  "description": "demodemo",
   "main": "index.js",
   "scripts": {
     "test": "jest",
