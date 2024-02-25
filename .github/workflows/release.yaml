@@ -37,6 +37,7 @@ jobs:
       env:
         HUSKY: 0
     - run: npx semantic-release
+    # npx semantic-release --ci=false 因為CI環境的變數本身就是 False
       env:
         GH_TOKEN: ${{ secrets.GH_TOKEN }}
       name: Release
